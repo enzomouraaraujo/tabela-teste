@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estiliza as células de cabeçalho */
+th {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Estiliza as células de dados */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr {
+    text-align: center;
+}
+
+/* Alterna a cor de fundo nas linhas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Adiciona hover nas linhas */
+tr:hover {
+    background-color: #f1f1f1;
+}
